@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Robert Wood - About us</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,300,700' rel='stylesheet' type='text/css'>
+	<!-- <link href="css/bootstrap-responsive.css" rel="stylesheet"> -->
+	<!-- <link href="css/style.css" rel="stylesheet"> -->
+
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+
+<!-- Fav and touch icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.jpg">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.jpg">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.jpg">
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.jpg">
+	<link rel="shortcut icon" href="images/favicon.jpg">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/twitter-bootstrap-hover-dropdown.js" ></script>
+
+<!-- TICKER -->
+	<script type="text/javascript" src="js/jquery.webticker.js" ></script>
+
+
+<style>
+.tickercontainer { 
+	width: 100%;
+	height: 40px;
+	margin: 10px 0;
+	padding: 0;
+	overflow: hidden;
+	background: #ff00e5;
+}
+.tickercontainer .mask { 
+	position: relative;
+	top: 10px;
+	height: 32px;
+	overflow: hidden;
+}
+ul.newsticker { 
+	-webkit-transition: all 0s linear;
+	-moz-transition: all 0s linear;
+	-o-transition: all 0s linear;
+	transition: all 0s linear;
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+	color: #fff;
+}
+ul.newsticker li {
+	float: left;
+	margin: 0 0 20px 0;
+	padding: 0 7px;
+}
+</style>
+
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+		<div class="span12">
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container-fluid">
+						 <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> 
+						<div class="nav-collapse collapse navbar-responsive-collapse">
+							<ul class="nav">
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li class="divider-vertical"></li>
+								<li class="active">
+									<a href="about.html">About</a>
+								</li>
+								<li class="divider-vertical"></li>
+								<li>
+									<a href="profiles.html">Profiles</a>
+								</li>
+								<li class="divider-vertical"></li>
+								<li>
+									<a href="testimonials.html">Testimonials</a>
+								</li>
+								<li class="divider-vertical"></li>
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+							<ul class="nav pull-right">
+								<li class="dropdown">
+									<div id="cirrushover">
+										<a data-hover="dropdown" href="#/">
+									 	<img src="images/quickquotebutton.jpg" alt="quickquote" class="responsive"></a>
+									 </div>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+
+
+<script type="text/javascript">
+
+	$(function() {
+		var cirrusTimer;
+		
+		$("#cirrushover").mouseenter(function() {
+			
+			$(".cirrus").slideDown();
+			
+		}).mouseleave(function() {
+			
+			cirrusTimer = setTimeout(function() {
+				$(".cirrus").slideUp();
+			}, 500);
+	
+		});
+		
+		$("#cirrus-hover").mouseenter(function() {
+			
+			clearTimeout(cirrusTimer);
+			$(".cirrus").show();
+			
+		}).mouseleave(function() {
+			
+			$(".cirrus").slideUp();
+			
+		});
+	});
+
+</script>
+
+
+
+
+				<div class="cirrus" id="cirrus-hover"><a href="#/"><img src="images/moving.gif" alt="Moving House?"></a></div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span6 brand">
+			<img alt="Robert Wood Logo" src="images/logo.png" >
+		</div>
+		<div class="span6 text-right contact">
+			<h3><span class="cta">GIVE US A CALL ON</span></h3>
+			<h3><span class="tel cta"><strong>0191 487 3733</strong></span></h3>
+		</div>
+	</div>
+
+
+
+	<div class="row">
+		<div class="span12 content">
+			<div class="pagetitle"><h2>ABOUT US</h2></DIV>
+
+			<ul class="thumbnails">
+				<li class="span8">
+					<div class="thumbnail">
+						<div class="caption">
+							<h3>YOUR HEADING HERE</h3>
+							<p><span class="pink">Conubia nostra, per inceptos</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida eros sapien, vitae semper turpis tempus vel. Nam hendrerit adipiscing libero sed pharetra. Donec et suscipit massa. Fusce luctus dignissim sodales. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi at accumsan ligula, id convallis nisi. Quisque vulputate nunc auctor convallis molestie. Cras hendrerit tincidunt arcu, non viverra tortor laoreet a. Aenean lacinia dui vitae malesuada pretium.
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="span4">
+					<div class="thumbnail">
+						<img alt="Robert Wood" src="images/IMG_0671.jpg" class="responsive">
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row content">
+		<div class="span4">
+			<div class="thumbnail">
+				<div class="caption">
+					<h3>YOUR HEADING HERE</h3>
+					<p><span class="pink">Conubia nostra, per inceptos</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida eros sapien, vitae semper turpis tempus vel. Nam hendrerit adipiscing libero sed pharetra. Donec et suscipit massa. Fusce luctus dignissim sodales. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi at accumsan ligula, id convallis nisi. Quisque vulputate nunc auctor convallis molestie. Cras hendrerit tincidunt arcu, non viverra tortor laoreet a. Aenean lacinia dui vitae malesuada pretium.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="span4">
+			<div class="thumbnail">
+				<div class="caption">
+					<h3>YOUR HEADING HERE</h3>
+					<p><span class="pink">Conubia nostra, per inceptos</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida eros sapien, vitae semper turpis tempus vel. Nam hendrerit adipiscing libero sed pharetra. Donec et suscipit massa. Fusce luctus dignissim sodales. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi at accumsan ligula, id convallis nisi. Quisque vulputate nunc auctor convallis molestie. Cras hendrerit tincidunt arcu, non viverra tortor laoreet a. Aenean lacinia dui vitae malesuada pretium.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="span4">
+			<div class="thumbnail">
+				<div class="caption">
+					<h3>YOUR HEADING HERE</h3>
+					<p><span class="pink">Conubia nostra, per inceptos</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida eros sapien, vitae semper turpis tempus vel. Nam hendrerit adipiscing libero sed pharetra. Donec et suscipit massa. Fusce luctus dignissim sodales. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi at accumsan ligula, id convallis nisi. Quisque vulputate nunc auctor convallis molestie. Cras hendrerit tincidunt arcu, non viverra tortor laoreet a. Aenean lacinia dui vitae malesuada pretium.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12">
+			<div class="dkbg">
+				<ul class="thumbnails">
+					<li class="span4">
+						<div class="thumbnail">
+							<img alt="300x200" src="images/pic1.jpg" class="responsive">
+							<div class="caption">
+								<h3>MOVING HOUSE</h3>
+								<p><span class="pink">Are you considering a house move?</span> Keep it simple. Moving house is very exciting but can be stressful - we know because we've all done it ourselves.Robert Wood will take care of everything - (except packing the boxes).
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="span4">
+						<div class="thumbnail">
+							<a href="#" class="one"><img alt="300x200" src="images/pic2.jpg" class="responsive"></a>
+							<div class="moreinfo"><h3>TELL ME MORE<img src="images/plus.png" alt="Plus" ></h3></div>
+							<div class="caption">
+								<h3>MAKING A WILL</h3>
+								<p><span class="pink">Helping you take care of loved ones, so you can get on with your life.</span> Making a will is often overlooked, causing unecessary pain for loved ones. Robert Wood are perfectly placed to get everything right, quickly, easily.
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="span4">
+						<div class="thumbnail">
+							<a href="#" class="two"><img alt="300x200" src="images/pic3.jpg" class="responsive"></a>
+							<div class="moreinfo"><h3>TELL ME MORE<img src="images/plus.png" alt="Plus"></h3></div>
+							<div class="caption">
+								<h3>FAMILY MATTERS</h3>
+								<p><span class="pink">Our Solicitors will guide you through every step.</span> Avoiding the obvious stresses that are inevitable during family disputes. We offer simple, sensitive legal advice, especially when children are involved. Call 0191 487 3733 now for a chat.
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span6 testimonials">
+			<h2>Testimonials</h2>
+			<p>Robert Wood, time and time again have proven the ideal Solicitor. My family have used the firm for many years and can not praise them highly enough. <a href="#">READ MORE</a></p> 
+			<p><strong>Mr Sidney Swayne.</strong></p>
+			<p>Don’t waste time looking elsewhere. <a href="#">READ MORE</a></p>
+			<p><strong>Mrs Emily Crowther</strong></p>
+		</div>
+		<div class="span6 blog">
+			<h2>Blog</h2>
+			<ul>
+				<li><a href="#">Opening up a can of worms</a>  Sept  21, by Rich Smith.</li>
+				<li><a href="#">Has there ever been a better time to stay put?</a>  Sept  21, by Jerry Jones.</li>
+				<li><a href="#">We don’t need another hero. Or do we?</a>  Sept  21, by Dan Greene</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="footer span12">
+			<div class="span2">
+				<h4>FOLLOW US</h4>
+				<ul>
+					<li><a href="#"><img src="images/twitter.png" alt="follow us on twitter"></a></li>
+					<li><a href="#"><img src="images/facebook.png" alt="follow us on facebook"></a></li>
+				</ul>
+			</div>
+			<div class="span2">
+				<h4>ABOUT US</h4>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Testimonial</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+			</div>
+			<div class="span4">
+				<h4>Profiles</h4>
+				<ul>
+					<li><a href="#">Commercial Conveyancing Department</a></li>
+					<li><a href="#">Commercial Department</a></li>
+					<li><a href="#">Employment Law Department</a></li>
+					<li><a href="#">Litigation Department</a></li>
+				</ul>
+			</div>
+			<div class="span4">
+				<h4>Testimonials</h4>
+				<ul>
+					<li><a href="#">Conveyancing Department</a></li>
+					<li><a href="#">Employment Law Department</a></li>
+					<li><a href="#">Family Department</a></li>
+					<li><a href="#">Litigation Department</a></li>
+					<li><a href="#">Personal Injury Department</a></li>
+				</ul>
+			</div>
+
+			<div class="span12">
+				<p class="copyright">© Copyright 2014. All rights reserved</p>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $('.carousel').carousel({interval: 4000});
+      });
+    </script>
+
+</body>
+</html>
